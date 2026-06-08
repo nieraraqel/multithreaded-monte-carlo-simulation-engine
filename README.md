@@ -24,10 +24,6 @@ Estimation of π using the ratio between the area of a unit circle and its bound
 
 Estimation of π using the probability that two randomly selected integers are coprime:
 
-[
-P(\gcd(a,b)=1)=\frac{6}{\pi^2}
-]
-
 ### Buffon's Needle Method
 
 Estimation of π using the probability of a randomly dropped needle crossing parallel lines.
@@ -41,7 +37,9 @@ Estimation of π using the probability of a randomly dropped needle crossing par
 │   ├── simulator.hpp
 │   ├── simulator.cpp
 │   ├── parallel_simulator.hpp
-│   └── parallel_simulator.cpp
+│   ├── parallel_simulator.сpp
+│   ├── statistics.hpp
+│   └── benchmark.hpp
 │
 ├── models/
 │   ├── random_points_pi_model.hpp
